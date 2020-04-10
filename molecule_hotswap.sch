@@ -19,7 +19,7 @@ U 1 1 5E3FA792
 P 5850 3750
 F 0 "D1" H 5850 3966 50  0000 C CNN
 F 1 "1N4148" H 5850 3875 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 3575 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5850 3575 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5850 3750 50  0001 C CNN
 	1    5850 3750
 	-1   0    0    1   
@@ -47,7 +47,7 @@ F 3 "~" H 6100 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hotswap:kailh_hotswap_mx J1
+L molecule_hotswap-rescue:kailh_hotswap_mx-hotswap J1
 U 1 1 5E3FDAD4
 P 5100 3600
 F 0 "J1" H 5175 3715 50  0000 C CNN
@@ -64,7 +64,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3750 6100 3750
 Wire Wire Line
-	4600 3350 4600 3750
+	4600 3350 4600 3700
 $Comp
 L Mechanical:MountingHole_Pad P1
 U 1 1 5E41DF51
@@ -95,4 +95,20 @@ Connection ~ 6100 3750
 Wire Wire Line
 	4600 4200 4600 3750
 Connection ~ 4600 3750
+$Comp
+L Mechanical:MountingHole_Pad P3
+U 1 1 5E903841
+P 4100 3700
+F 0 "P3" H 4000 3657 50  0000 R CNN
+F 1 "MountingHole_Pad" H 4000 3748 50  0000 R CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 4100 3700 50  0001 C CNN
+F 3 "~" H 4100 3700 50  0001 C CNN
+	1    4100 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 3700 4600 3700
+Wire Wire Line
+	4600 3700 4600 3750
+Connection ~ 4600 3700
 $EndSCHEMATC
