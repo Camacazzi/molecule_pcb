@@ -37,11 +37,11 @@ X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# hotswap_kailh_hotswap_mx
+# molecule_hotswap-rescue_kailh_hotswap_mx-hotswap
 #
-DEF hotswap_kailh_hotswap_mx J 0 40 Y Y 1 F N
+DEF molecule_hotswap-rescue_kailh_hotswap_mx-hotswap J 0 40 Y Y 1 F N
 F0 "J" 0 0 50 H V C CNN
-F1 "hotswap_kailh_hotswap_mx" 0 0 50 H V C CNN
+F1 "molecule_hotswap-rescue_kailh_hotswap_mx-hotswap" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
